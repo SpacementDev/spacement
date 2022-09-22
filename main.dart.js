@@ -61012,7 +61012,7 @@ var $async$ti=A.a3(function(a,b){if(a===1)return A.a_(b,r)
 while(true)switch(s){case 0:o=t.N
 n=B.aC.Je(A.au(["latitude",p.e.a.a,"longitude",p.d.a.a,"diameter",p.f.a.a],o,o),null)
 s=3
-return A.a5(A.ayy(A.xP("http://localhost:8000/nearestLine"),n,A.au(["Content-Type","application/json"],o,o)),$async$ti)
+return A.a5(A.ayy(A.xP("https://gis-service-test.herokuapp.com/nearestLine"),n,A.au(["Content-Type","application/json"],o,o)),$async$ti)
 case 3:q=b
 s=1
 break
