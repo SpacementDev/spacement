@@ -66204,7 +66204,7 @@ var $async$uy=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:o=t.N
 n=B.aB.LZ(A.av(["latitude",p.e.a.a,"longitude",p.d.a.a],o,o),null)
 s=3
-return A.a2(A.apz(A.t5("https://spacement-server.herokuapp.com/nearestLine"),n,A.av(["Content-Type","application/json"],o,o)),$async$uy)
+return A.a2(A.apz(A.t5("https://spacement.herokuapp.com/nearestLine"),n,A.av(["Content-Type","application/json"],o,o)),$async$uy)
 case 3:q=b
 s=1
 break
