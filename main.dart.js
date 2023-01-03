@@ -66200,7 +66200,7 @@ var $async$uy=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:o=t.N
 n=B.aB.LZ(A.av(["latitude",p.e.a.a,"longitude",p.d.a.a,"minutes",p.f.a.a],o,o),null)
 s=3
-return A.a2(A.apA(A.t5("https://32cf-122-153-6-186.jp.ngrok.io/timeProximity"),n,A.av(["Content-Type","application/json"],o,o)),$async$uy)
+return A.a2(A.apA(A.t5("https://spacement.herokuapp.com/timeProximity"),n,A.av(["Content-Type","application/json"],o,o)),$async$uy)
 case 3:q=b
 s=1
 break
